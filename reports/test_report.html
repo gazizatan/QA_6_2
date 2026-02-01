@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
+    h1 { margin-bottom: 8px; }
+    .meta { color: #555; margin-bottom: 16px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; vertical-align: top; }
+    th { background: #f3f3f3; text-align: left; }
+    tr:nth-child(even) { background: #fafafa; }
+    .Passed { color: #0a7b34; font-weight: bold; }
+    .Failed { color: #b00020; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Cross-Browser Test Report</h1>
+  <div class="meta">Generated: 2026-01-31 08:43:35</div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Test Case</th>
+        <th>Browser</th>
+        <th>Test Steps</th>
+        <th>Expected Result</th>
+        <th>Actual Result</th>
+        <th>Pass/Fail</th>
+        <th>Comments</th>
+        <th>Screenshot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Home page title</td><td>chrome</td><td>Open https://www.browserstack.com; Wait for page to load; Verify title contains &#x27;BrowserStack&#x27;</td><td>Title contains &#x27;BrowserStack&#x27;</td><td>Title: Most Reliable App &amp; Cross Browser Testing Platform | BrowserStack</td><td><span class='Passed'>Passed</span></td><td></td><td><a href='/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/1_chrome.png' target='_blank'>screenshot</a></td></tr>
+<tr><td>1</td><td>Home page title</td><td>firefox</td><td>Open https://www.browserstack.com; Wait for page to load; Verify title contains &#x27;BrowserStack&#x27;</td><td>Title contains &#x27;BrowserStack&#x27;</td><td>Title: Most Reliable App &amp; Cross Browser Testing Platform | BrowserStack</td><td><span class='Passed'>Passed</span></td><td></td><td><a href='/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/1_firefox.png' target='_blank'>screenshot</a></td></tr>
+<tr><td>2</td><td>Non-existent page shows 404</td><td>chrome</td><td>Open https://www.browserstack.com/this-page-should-not-exist-qa6; Wait for page to load; Verify page contains &#x27;404&#x27;</td><td>Page contains &#x27;404&#x27;</td><td>Title: Page not found | BrowserStack; Text &#x27;404&#x27; found: True</td><td><span class='Passed'>Passed</span></td><td></td><td><a href='/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/2_chrome.png' target='_blank'>screenshot</a></td></tr>
+<tr><td>2</td><td>Non-existent page shows 404</td><td>firefox</td><td>Open https://www.browserstack.com/this-page-should-not-exist-qa6; Wait for page to load; Verify page contains &#x27;404&#x27;</td><td>Page contains &#x27;404&#x27;</td><td>Title: Page not found | BrowserStack; Text &#x27;404&#x27; found: True</td><td><span class='Passed'>Passed</span></td><td></td><td><a href='/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/2_firefox.png' target='_blank'>screenshot</a></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Home page title",
+    "browser": "chrome",
+    "url": "https://www.browserstack.com",
+    "steps": "Open https://www.browserstack.com; Wait for page to load; Verify title contains 'BrowserStack'",
+    "expected_result": "Title contains 'BrowserStack'",
+    "actual_result": "Title: Most Reliable App & Cross Browser Testing Platform | BrowserStack",
+    "status": "Passed",
+    "comments": "",
+    "session_id": "9a2de38dde7945428cfc469f8496c5c1",
+    "screenshot": "/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/1_chrome.png"
+  },
+  {
+    "id": 1,
+    "name": "Home page title",
+    "browser": "firefox",
+    "url": "https://www.browserstack.com",
+    "steps": "Open https://www.browserstack.com; Wait for page to load; Verify title contains 'BrowserStack'",
+    "expected_result": "Title contains 'BrowserStack'",
+    "actual_result": "Title: Most Reliable App & Cross Browser Testing Platform | BrowserStack",
+    "status": "Passed",
+    "comments": "",
+    "session_id": "8ef12144777748a89f0576e1613cf33a",
+    "screenshot": "/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/1_firefox.png"
+  },
+  {
+    "id": 2,
+    "name": "Non-existent page shows 404",
+    "browser": "chrome",
+    "url": "https://www.browserstack.com/this-page-should-not-exist-qa6",
+    "steps": "Open https://www.browserstack.com/this-page-should-not-exist-qa6; Wait for page to load; Verify page contains '404'",
+    "expected_result": "Page contains '404'",
+    "actual_result": "Title: Page not found | BrowserStack; Text '404' found: True",
+    "status": "Passed",
+    "comments": "",
+    "session_id": "cddf57e1be444839a3a10f6bb9a54d9d",
+    "screenshot": "/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/2_chrome.png"
+  },
+  {
+    "id": 2,
+    "name": "Non-existent page shows 404",
+    "browser": "firefox",
+    "url": "https://www.browserstack.com/this-page-should-not-exist-qa6",
+    "steps": "Open https://www.browserstack.com/this-page-should-not-exist-qa6; Wait for page to load; Verify page contains '404'",
+    "expected_result": "Page contains '404'",
+    "actual_result": "Title: Page not found | BrowserStack; Text '404' found: True",
+    "status": "Passed",
+    "comments": "",
+    "session_id": "e2271581cc4a4b8fbfd2b23c15729aa8",
+    "screenshot": "/Users/gaziza_tanirbergen/Documents/QA6_2/artifacts/screenshots/2_firefox.png"
+  }
+]

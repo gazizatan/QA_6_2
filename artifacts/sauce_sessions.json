@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "af070ac338de4bbba7f618be5ab4b2b7",
+    "browser": "chrome",
+    "test_name": "1 - Home page title [chrome]",
+    "passed": true
+  },
+  {
+    "session_id": "cc5aeed9296b41d2afc1f8ed35bf275a",
+    "browser": "firefox",
+    "test_name": "1 - Home page title [firefox]",
+    "passed": true
+  },
+  {
+    "session_id": "a6a044bf67584a86b330a1b8d1826e9a",
+    "browser": "chrome",
+    "test_name": "2 - Non-existent page shows 404 [chrome]",
+    "passed": true
+  },
+  {
+    "session_id": "b5641d30449e448596483cbd01743a61",
+    "browser": "firefox",
+    "test_name": "2 - Non-existent page shows 404 [firefox]",
+    "passed": true
+  },
+  {
+    "session_id": "9a2de38dde7945428cfc469f8496c5c1",
+    "browser": "chrome",
+    "test_name": "1 - Home page title [chrome]",
+    "passed": true
+  },
+  {
+    "session_id": "8ef12144777748a89f0576e1613cf33a",
+    "browser": "firefox",
+    "test_name": "1 - Home page title [firefox]",
+    "passed": true
+  },
+  {
+    "session_id": "cddf57e1be444839a3a10f6bb9a54d9d",
+    "browser": "chrome",
+    "test_name": "2 - Non-existent page shows 404 [chrome]",
+    "passed": true
+  },
+  {
+    "session_id": "e2271581cc4a4b8fbfd2b23c15729aa8",
+    "browser": "firefox",
+    "test_name": "2 - Non-existent page shows 404 [firefox]",
+    "passed": true
+  }
+]
